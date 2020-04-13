@@ -1,26 +1,16 @@
-# Python API Homework - What's the Weather Like?
-
+This repo contains homework from the Python API lecture series from The Columbia Engineering Data Analytics Boot Camp.
 
 
 ## WeatherPy
 
-In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
-
-Your objective is to build a series of scatter plots to showcase the following relationships:
-
-* Temperature (F) vs. Latitude
-* Humidity (%) vs. Latitude
-* Cloudiness (%) vs. Latitude
-* Wind Speed (mph) vs. Latitude
-
-Your final notebook must:
-
-* Randomly select **at least** 500 unique (non-repeat) cities based on latitude and longitude.
-* Perform a weather check on each of the cities using a series of successive API calls.
-* Include a print log of each city as it's being processed with the city number and city name.
-* Save both a CSV of all data retrieved and png images for each scatter plot.
+This notebook creates a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. 
+* This analysis will showcase the following:
+	* Temperature (F) vs. Latitude
+	* Humidity (%) vs. Latitude
+	* Cloudiness (%) vs. Latitude
+	* Wind Speed (mph) vs. Latitude
+* For the analysis I randomly selected **at least** 500 unique (non-repeat) cities based on latitude and longitude.
+* Performed a weather check on each of the cities using a series of successive API calls, including a print log of each city as it's being processed with the city number and city name.
+* Saveed the outcome results (CSV of all data retrieved and png images for each scatter plot).
 
 
-### Copyright
-
-Trilogy Education Services © 2019. All Rights Reserved.
